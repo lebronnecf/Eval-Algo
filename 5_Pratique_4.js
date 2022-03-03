@@ -11,8 +11,13 @@
 let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 function decrypte(code) {
+    let mot = "";
 
-    return "";
+    for (const index of code) {
+        mot = mot + alphabet[index];
+    }
+
+    return mot;
 }
 
 // NE PAS MODIFIER APRES CETTE LIGNE
