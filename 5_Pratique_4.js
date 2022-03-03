@@ -6,7 +6,7 @@
 // Cette fonction prend en paramètre un mot crypté sous la forme d'un tableau de nombres
 // Chaque nombre est simplement à l'index de la lettre correspondant dans le tableau alphabet
 // Le but est que la fonction RETOURNE le mot décrypté sous la forme d'une chaîne de charactère
-// Exemple decrypte([7, 4, 11, 11, 4]) retourne "hello"
+// Exemple decrypte([7, 4, 11, 11, 14]) retourne "hello"
 
 let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
